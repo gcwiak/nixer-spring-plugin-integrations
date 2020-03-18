@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This module contains e2e tests based on postman simulating variety of cases for user login. The tests are ran on nixer.io modified version of newman with enabled cookie support.",
   "dependencies": {
+    "minimist": ">=1.2.2",
     "newman": "git+https://github.com/nixer-io/newman.git#feature/cookies-domain-whitelist",
     "newman-reporter-htmlextra": "^1.9.2",
     "yargs": "^15.0.2"
